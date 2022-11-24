@@ -55,7 +55,7 @@ Config modal-body no padding
 ```php
 
 <?php \yii2assets\fullscreenmodal\FullscreenModal::begin([
-   'header' => '<h4 class="modal-title text-center">Fullscreen Modal</h4>',
+   'title' => '<h4 class="modal-title text-center">Fullscreen Modal</h4>',
    'footer' => '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                <button type="button" class="btn btn-primary">Save changes</button>',
    'modalbodyPadding'=>false, // <<-----------
