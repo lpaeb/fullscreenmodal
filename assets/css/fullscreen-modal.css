@@ -2,10 +2,10 @@
   .modal-fs .modal-dialog {
     position: fixed;
     margin: 0;
-    width: 100%!important;
+    width: 100%;
     height: 100%;
     padding: 0;
-    --bs-modal-width:100%!important;
+    --bs-modal-width:100%;;
   }
   
   .modal-fs .modal-content {
