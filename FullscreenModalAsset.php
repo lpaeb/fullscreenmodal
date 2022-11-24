@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2assets\fullscreenmodal;
+namespace lpaeb\fullscreenmodal;
 
 use yii\web\AssetBundle;
 use yii\web\View;
