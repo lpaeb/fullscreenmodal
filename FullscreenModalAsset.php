@@ -11,7 +11,7 @@ use yii\web\View;
  */
 class FullscreenModalAsset extends AssetBundle
 {
-    public $sourcePath = '@yii2assets/fullscreenmodal/assets';
+    public $sourcePath = '@lpaeb/fullscreenmodal/assets';
 
     public $js = [
 
