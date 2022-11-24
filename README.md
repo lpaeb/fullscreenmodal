@@ -28,11 +28,11 @@ Usage
 -----
 
 Once the extension is installed, simply use it in your code by  :
-
+changed head for title in usage
 ```php
 
 <?php \yii2assets\fullscreenmodal\FullscreenModal::begin([
-   'header' => '<h4 class="modal-title text-center">Fullscreen Modal</h4>',
+   'title' => '<h4 class="modal-title text-center">Fullscreen Modal</h4>',
    'footer' => '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                <button type="button" class="btn btn-primary">Save changes</button>',
 
