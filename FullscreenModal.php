@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2assets\fullscreenmodal;
+namespace lpaeb\fullscreenmodal;
 
 use Yii;
 use yii\helpers\ArrayHelper;
-use yii\bootstrap\Widget;
-use yii\bootstrap\Html;
-use yii\bootstrap\Modal;
+use yii\bootstrap5\Widget;
+use yii\bootstrap5\Html;
+use yii\bootstrap5\Modal;
 
 /**
  * Fullscreen Modal
