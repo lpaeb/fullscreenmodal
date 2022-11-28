@@ -26,7 +26,6 @@ class FullscreenModal extends Modal
        $this->options = array_merge([
            'class' => 'modal-fs fade',
        ], $this->options);
-       $abc = $this->notitle;
        $padding = $this->modalBodyPadding===false? '0' : $this->modalBodyPadding;
        $this->getView()->registerCss("
         .modal-fs .modal-body{
