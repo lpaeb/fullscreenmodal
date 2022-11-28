@@ -38,7 +38,14 @@ changed head for title in usage
 
    'toggleButton' => ['label' => 'Open','class'=>'btn btn-primary'],
 ]);?>
-
+//new options in 
+<?php \lpaeb\fullscreenmodal\FullscreenModal::begin([
+   'title' => '<h4 class="modal-title text-center">Fullscreen Modal</h4>',
+   'footer' => '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary">Save changes</button>',
+    'notitle'=>true,   //hide the title bar        
+   'toggleButton' => ['label' => 'Open','class'=>'btn btn-primary'],
+]);?>
 <p> Content </p>
 
 <?php FullscreenModal::end();?>
